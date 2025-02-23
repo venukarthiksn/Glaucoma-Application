@@ -21,7 +21,7 @@ def import_and_predict(image_data, model):
     return prediction
 
 # Load the trained model
-model_path = r"C:\Users\kadgekar venukarthik\Downloads\MINI_PROJECT_GLAUCOMA\my_model2.h5"
+model_path = r"C:\Users\kadgekar venukarthik\Desktop\STREAMLIT APPLICATION\Gmodel_compressed.tflite"
 if os.path.exists(model_path):
     model = tf.keras.models.load_model(model_path)
 else:
